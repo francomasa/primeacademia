@@ -1,0 +1,112 @@
+body{
+    font-family: "Roboto", serif;
+}
+.navbar{
+    background-color: #71c5a5;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #71c5a5;
+
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-secao-kids .nav-link.active:hover{
+    color: #fff;
+}    
+
+.navbar-toggler {
+    background-color: #008c56;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.section-title {   
+    font-family: "Jaro", sans-serif;
+}
+
+.text-colored{
+    color: #71c5a5;
+}
+
+#nossa-academia,
+#secao-kids{
+    background-color: hsl(158, 100%, 95%);
+}
+#secao-planos .tab-content{
+    align-items: center;
+    text-align: center;
+}
+.nav-secao-kids .nav-link.active,
+#fale-conosco button {
+    background-color: #71c5a5;
+    color: #fff;
+}
+
+.nav-secao-kids .nav-link:hover{
+    color: #71c5a5;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.error{
+    color: #33c38c;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.plano-title{
+    color: #71c5a5;
+    font-size: 3em;
+}
+
+.plano-content{
+    font-size: 1.5em;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.icon-size{
+    font-size: 2.5em;
+}
+.info-title{
+    color: #71c5a5;
+    font-size: 15px;
+    
+}
+.info-content{
+    color: rgb(161, 155, 155);
+    font-size: 12px;
+}
+
+.indicator-position{
+    top: 90%;
+}
+
+@media (max-width: 767px) {
+    .plano-title{
+        color: #71c5a5;
+        font-size: 2em;
+    }
+    
+    .plano-content{
+        font-size: 1em;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    .icon-size{
+        font-size: 2em;
+    }
+}
